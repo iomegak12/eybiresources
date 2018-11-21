@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="RAMTHINKPAD\iomeg" GeneratedFromPackageName="Order System CSV Processor" GeneratedFromPackageID="{D710C548-2228-46C8-8FD3-3E257CE56BFA}" GeneratedDate="20-11-2018 19:14:08"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Case Study DB Connection].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>Data Source=ramthinkpad\instance2;Initial Catalog=CaseStudyDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Packet Size=8192;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Customers].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Customers</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Employees].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Employees</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Locations].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Locations</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Product Categories].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Product Categories</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Product Subcategories].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Product Subcategories</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Products].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Products</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Sales].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Sales</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Sales Reasons].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Sales Reasons</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Stores].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Stores</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[Time].Properties[ConnectionString]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Archived\Time</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Customers and Stores\Loop through Customers.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Customers</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Customers and Stores\Loop through Locations.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Locations</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Customers and Stores\Loop through Stores.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Stores</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Products, Subcategories and Categories\Loop through Categories.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Product Categories</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Products, Subcategories and Categories\Loop through Products.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Products</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Products, Subcategories and Categories\Loop through Subcategories.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Product Subcategories</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Tme, Employees and Sales Reasons\Loop through Employees.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Employees</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Tme, Employees and Sales Reasons\Loop through Reasons.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Sales Reasons</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Tme, Employees and Sales Reasons\Loop through Times.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Time</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\Process Transactions\Loop through Sales.ForEachEnumerator.Properties[Directory]" ValueType="String">
+    <ConfiguredValue>C:\000-MSBI\Tests\Data\Sales</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
